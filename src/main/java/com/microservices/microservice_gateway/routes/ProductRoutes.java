@@ -37,6 +37,7 @@ public class ProductRoutes {
                                 .build();
         }
 
+        // docs
         @Bean
         public RouterFunction<ServerResponse> docsProductsServiceRoute() {
                 return GatewayRouterFunctions.route("product_service")
